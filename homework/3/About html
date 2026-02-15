@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About html</title>
+</head>
+
+<body>
+    <h1>About html</h1>
+    <p>This is the About page for our website. It contains information about our company and its mission.</p>
+    <p>This page was created to demonstrate basic HTML structure and navigation between pages.</p>
+    <a href="index.html">index</a>
+    <br>
+    <a href="Contact">Contact</a>
+    <br>
+    <a href="https://weber.am/html/tag/ol">Ul list / inch e Ol</a>
+</body>
+
+</html>

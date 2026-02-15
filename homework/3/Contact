@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Contact</h1>
+    <p>I dropped here my contact information</p>
+    <p>Contact with me</p>
+    <a href="mailto: mosyanarayik777@gmail.com">Gmail</a>
+    <br>
+    <a href="https://github.com/defoltusername">Github</a>
+</body>
+
+</html>
