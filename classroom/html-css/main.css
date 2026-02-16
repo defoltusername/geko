@@ -1,0 +1,65 @@
+div{
+    width: 550px;
+    height: 100px;
+   border: 1px solid #ff00ff;
+}
+.cube{
+    color: white;
+    font-size: 24px;
+}
+#cube1{
+    background-color: red;
+}
+#cube2{
+    background-color: rgb(255, 238, 0);
+}
+#cube3{
+    background-color: blanchedalmond;
+}
+#cube4{
+    background-color: #ff00ff;
+}
+#cube5{
+    background-color: black;
+}
+.text-center{
+    text-align: center;
+}
+
+    box-sizing
+input[type="number"]{
+    border: 1px solid #00ffff;
+}
+input[type^="t"]{
+    border: 1px solid #a11515;
+}
+input[type$="l"]{
+    border: 1px solid #ff0404;
+}
+input[type*="word"]{
+    border: 1px solid #4e00df;
+}
+a[href*="github.com"]{
+    color: #000000;
+}
+a[href*="youtube.com"]{
+    color: #ff0000;
+}
+*{
+ color: #00ffff;   
+} 
+div{
+    border: 5px solid #000;
+    border-width: 5px;
+    border-style:dashed;
+    border-color: #36bb3d;
+    border-right-width: 10px;
+    border-color: red blue; 
+    border-style: dashed dotted solid none;
+    border-top: solid;
+    border-radius: 20px 50%;
+    border-radius: calc(infinity * 20px);
+    width: 200px;
+    height: 70px;
+    
+}
