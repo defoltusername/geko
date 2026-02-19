@@ -1,0 +1,41 @@
+.div1{
+    height: 70px;
+    width: 150px;
+    box-sizing: border-box;
+    border-color: rgb(3, 204, 20);
+    border-style: solid;
+}
+.div2{
+    height: 150px;
+    width: 70px;
+    box-sizing: border-box;
+    border-color: black;
+    border-style: solid;
+}
+.div3{
+height: 80px;
+width: 80px;
+box-sizing: border-box;
+border-color: rgb(200, 255, 0);
+border-style: solid;
+margin-left: 70px;
+margin-top: -150px;
+}
+.div4{
+    height: 70px;
+    width: 150px;
+    box-sizing: border-box;
+    border-color: rgb(0, 189, 252);
+    border-style: solid;
+    margin-left: 70px;
+}
+
+.div5{
+    height: 150px;
+    width: 70px;
+    box-sizing: border-box;
+    border-color: #ff0000;
+    border-style: solid;
+    margin-left: 150px;
+    margin-top: -220px;
+}
