@@ -1,0 +1,60 @@
+.main-title{
+    font-family: sans-serif, Arial;
+    font-style: italic;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+.section-title{
+    font-family: Georgia, serif;
+    font-size: 24px;
+    word-spacing: 2px;
+}
+.text-one{
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'Times New Roman', serif;
+    line-height: 1.8;
+}
+.text-two{
+font-size: 16px;
+font-weight: bolder;
+font-style: italic;
+word-spacing: 6px;
+}
+.text-three{
+    font-size: 20px;
+    word-spacing: 3px;
+    text-transform: capitalize;
+    margin-left: 612px;
+}
+.main-link{
+    font-size: 18px;
+    font-family: Verdana, sans-serif;
+    text-decoration: overline rgb(255, 0, 149);
+
+}
+.pre-text{
+  white-space: pre;
+  font-family: monospace; 
+}
+.box{
+    width: 100%;
+    height: 150px;
+}
+.box-one{
+    background-color: #2d6138;
+}
+.box-two{
+background-image: url(https://topwar.ru/uploads/posts/2025-06/377cd8b8c4_1b5931c5-94d2-4e25-9c90-1796967329d2.webp);
+background-size: 100% 100%;
+
+}
+.box-three{
+    
+    background-image: url(https://d3i6fh83elv35t.cloudfront.net/static/2022/10/2022-10-10T145052Z_89304947_RC29YW9UWTDT_RTRMADP_3_UKRAINE-CRISIS-MOBILISATION-DONETSK-REGION-1200x800.jpg);
+    background-size: 50%;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+
