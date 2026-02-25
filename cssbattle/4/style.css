@@ -1,0 +1,29 @@
+.objectone{
+    border-color: #F7EC7D;
+    background-color: #F7EC7D;
+    border-style: solid;
+    height: 100px;
+    width: 100px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+body{
+    background-color: #62306D;
+}
+.objecttwo{
+    border-color: #F7EC7D;
+    background-color: #F7EC7D;
+    border-style: solid;
+    height: 100px;
+    width: 100px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.obecthree{
+    border-color: #F7EC7D;
+    background-color: #F7EC7D;
+    border-style: solid;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}

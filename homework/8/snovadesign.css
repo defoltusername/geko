@@ -1,54 +1,33 @@
-.container{
-    height: 50px;
-    width: 100%;
-    background-color: rgb(22, 20, 19);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-
+body{
+    background-color: #e0e7f0;
+    font-family: Arial, sans-serif;
 }
-.link{
-    color: wheat;
-    font-size: 100%;
+
+.navbar .link{
+    color: #ccc;
     text-decoration: none;
-    margin-left: 150px;
-    text-transform: normal;
-    font-style: normal;
-    color: rgb(136, 132, 132);
+    margin: 0 15px;
+
+
 }
-    
-    
-
-
 .btn{
-    border: 10px solid rgb(40, 136, 143);
-    background-color: rgb(40, 136, 143);
-    border-top-left-radius: 30px ;
-    border-top-right-radius: 30px ;
-    border-bottom-left-radius: 30px ;
-    border-bottom-right-radius: 30px ;
+    background-color: #0088a9;
     color: white;
-    margin-left: 300px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: 700px;
-    
+    border: none;
+    padding: 10px 25px;
+    border-radius: 50px;
 }
 .logo{
-    
-    color: wheat;
-    font-size: larger;
     font-weight: bold;
     text-transform: uppercase;
-    font-family: sans-serif;
-    font-style: initial;
-    margin-left: 1000px;
-    margin-top: 50px;
+    letter-spacing: 1px;
+    color: white;
 }
-.navbar{
+.wrap{
     display: flex;
-    margin-bottom: 1px;
-    margin-left: -100px;
-    margin-top: -35px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #1a1a1c;
 }

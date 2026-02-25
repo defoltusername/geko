@@ -1,0 +1,39 @@
+body{
+    background-color: #e0e7f0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar{
+    margin-left: auto;
+    display: flex;
+    gap: 30px;
+}
+.navbar .link{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+
+}
+
+
+.btn{
+    background-color: #0088a9;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 50px;
+    margin-left: 40px;
+}
+.logo{
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+}
+.wrap{
+    display: flex;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #1a1a1c;
+
+}
