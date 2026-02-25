@@ -1,0 +1,37 @@
+body {
+  background: #0B2429; 
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.objectone, .objecttwo, .objectthree {
+  width: 100px;
+  height: 100px;
+}
+
+.objectone {
+  background: #1A4341;
+  border-top-left-radius: 70%;
+  margin-left: 100px;
+}
+
+.objecttwo {
+  background: #998235;
+  border-radius: 70% 0 70% 0%; 
+  margin-left: -50px; 
+}
+
+.objectthree {
+  background: #F3AC3C;
+  border-radius: 70% 0  50%; 
+  margin-left: -62px;
+}

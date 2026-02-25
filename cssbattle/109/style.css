@@ -1,0 +1,79 @@
+body{
+    background-color: #191919;
+}
+
+.containerone{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+}
+.object{
+    height: 50px;
+    width: 50px;
+    border-color: #F6E59C;
+    border-style: solid;
+    background-color: #F6E59C;
+    border-radius: 100%;
+}
+.objectone{
+    margin-right: 5px;
+}
+.objecttwo{
+    margin-right: 5px;
+}
+.objectthree{
+    margin-right: 5px;
+}
+.containertwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    margin-top: 10px;
+}
+.karuyc{
+height: 50px;
+    width: 50px;
+    border-color: #F6E59C;
+    border-style: solid;
+    background-color: #F6E59C;
+    border-radius: 100%;
+}
+.karuycmek{
+    margin-right: 5px;
+}
+.karuycerkus{
+    margin-right: 5px;
+}
+.containerthree{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-top: 10px;
+}
+.yashik{
+    height: 50px;
+    width: 50px;
+    border-color: #F6E59C;
+    border-style: solid;
+    background-color: #F6E59C;
+    border-radius: 100%;
+}
+.yashikmek{
+    margin-right: 5px;
+}
+.arkxmek{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-top: 10px;
+}
+.verchiny{
+    height: 50px;
+    width: 50px;
+    border-color: #F6E59C;
+    border-style: solid;
+    background-color: #F6E59C;
+    border-radius: 100%;
+}

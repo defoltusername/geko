@@ -1,3 +1,11 @@
+.container{
+    display: flex;
+    align-items: start;
+    flex-direction: row;
+    margin: 100px;
+
+    
+}
 .objectone{
     border-color: #F7EC7D;
     background-color: #F7EC7D;
@@ -6,6 +14,8 @@
     width: 100px;
     border-bottom-right-radius: 50px;
     border-bottom-left-radius: 50px;
+    margin-top: 105px;
+    
 }
 body{
     background-color: #62306D;
@@ -18,12 +28,15 @@ body{
     width: 100px;
     border-top-right-radius: 50px;
     border-top-left-radius: 50px;
+   
 }
-.obecthree{
+.objectthree{
     border-color: #F7EC7D;
     background-color: #F7EC7D;
     border-style: solid;
     height: 100px;
     width: 100px;
-    border-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+margin-top: 105px;    
 }
