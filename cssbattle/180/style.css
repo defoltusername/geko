@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+
+}
+.container{
+    height: 300px;
+    width: 400px;
+    background-color: #FFFFFF;
+    border-width: 100px 0 100px 120px;  
+    border-color: #13AA4B transparent #EC1E25 black;
+}
+
+

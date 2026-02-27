@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    background-color: #0D1335;
+}
+.circle{
+
+}
+.ellipse{
+width: 250px;
+height: 110px;
+border:  10px solid;
+border-radius: 50%;
+}
+.circle{
+width: 40px;
+
+aspect-ratio: 1/1;
+background-color: #73C6EA;
+border-radius: 50%;
+}
+.center{
+position: absolute;
+top: 50%;
+left: 50%;
+translate: -50% -50%;
+}
+.e2{
+border-color: #4FA07B;
+}
+.e3{
+border-color: #DC6638;
+rotate: -125deg;
+}
+.e1{
+    border-color: #FBFAE2;
+}
