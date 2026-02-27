@@ -1,0 +1,108 @@
+.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.box{
+    border: 1px solid rgb(255, 255, 255);
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: white;
+}
+.img{
+    background-image: url(https://media.defense.gov/2023/Sep/11/2003297719/1300/700/0/230613-M-AU112-1049.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    width: 180px;
+    margin-left: 25px;
+    border-radius: 10px;
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 10px;
+}
+.buttonone{
+    border: 1px solid lightgray;
+    position: absolute;
+    height: 20px;
+    width: 50px;
+    margin-top: 120px;
+    border-radius: 10px;
+    margin-left: 10px;
+    position: relative;
+}
+.buttontwo{
+    border: 1px solid lightgray;
+    position: absolute;
+    height: 20px;
+    width: 50px;
+    margin-top: -22px;
+    border-radius: 10px;
+    margin-left: 70px;
+    position: relative;
+}
+.texttwo{
+    font-size: 11px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 300;
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 5px;
+    color: rgb(77, 77, 77);
+    
+}
+.textone{
+    font-family: 'Lexend', sans-serif;
+    font-size: 11px;
+    font-weight: 300;
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 3px;
+    color: rgb(77, 77, 77)
+}
+body{
+    background-color: rgb(187, 186, 185);
+}
+.h{
+    font-family: 'Lexend', sans-serif;
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.text{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 30%;
+    font-family: 'Lexend', sans-serif;
+    font-size: 12px;
+    color: rgb(77, 77, 77);
+}
+.lasth{
+    border: 1px solid lightblue;
+    height: 20px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: lightblue;
+    position: relative;
+    margin-top: 125px;
+    margin-left: 60px;
+    
+}
+.btn{
+    font-family: 'Lexend', sans-serif;
+    font-size: 9px;
+    position:absolute;
+    margin-left: 10px;
+    margin-top: 4px;
+    color: blue;
+
+}
