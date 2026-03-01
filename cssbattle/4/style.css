@@ -3,6 +3,8 @@
     align-items: start;
     flex-direction: row;
     margin: 100px;
+    height: 300px;
+    width: 400px;
 
     
 }
@@ -17,8 +19,6 @@
     margin-top: 105px;
     
 }
-body{
-    background-color: #62306D;
 }
 .objecttwo{
     border-color: #F7EC7D;

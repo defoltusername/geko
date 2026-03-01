@@ -1,52 +1,83 @@
-.div1{
-    width: 50px;
-    height: 50px;
-    box-sizing: border-box;
-    border-style: solid;
-    border-radius: 100%;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.div2{
-    width: 50px;
-    height: 50px;
-    box-sizing: border-box;
-    border-style: solid;
-    border-radius: 100%;
+
+body {
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.div3{
-    width: 50px;
-    height: 50px;
-    box-sizing: border-box;
-    border-style: solid;
-    border-radius: 100%;
-    margin-left: 50px;
-    margin-top: -100px;
+
+.container {
+  width: 90vmin;
+  aspect-ratio: 1 / 1;
+
+  position: relative;
 }
-.div4{
-    width: 50px;
-    height: 50px;
-    box-sizing: border-box;
-    border-style: solid;
-    border-radius: 100%;
-    margin-left: 50px;
-    margin-top: -0px;
+
+.out {
+  width: 50%;
+  aspect-ratio: 1 / 1;
+  position: absolute;
+  border: 5px solid #000;
+  border-radius: 50%;
 }
-.div5{
-    width: 50px;
-    height: 50px;
-    box-sizing: border-box;
-    border-style: solid;
-    border-radius: 100%;
-    border-color: red;
-    background-color: red;
-    margin-left: 25px;
-    margin-top: -75px;
+.out1{
+  top: 0;
+  left: 0;
 }
-.div6{
-    width: 25px;
-    height: 25px;
-    box-sizing: border-box;
-    border: solid white;
-    margin-left: 36.5px;
-    margin-top: -37.5px;
-    background-color: #fff;
+.out2{
+  top: 0;
+  right: 0;
+}
+.out3{
+  bottom: 0;
+  right: 0;
+}
+.out4{
+  bottom: 0;
+  left: 0;
+}
+
+.in {
+  background: #f00;
+  width: 50%;
+  aspect-ratio: 1 / 1;
+  position: absolute;
+}
+
+.in1 {
+  bottom: 0;
+  right: 0;
+  border-radius: 100% 0;
+  border-top: 5px solid #000;
+  border-left: 5px solid #000;
+}
+.in2 {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100%;
+  border-top: 5px solid #000;
+  border-right: 5px solid #000;
+  
+}
+.in3 {
+  top: 0;
+  left: 0;
+  border-radius: 100% 0;
+  border-bottom: 5px solid #000;
+  border-right: 5px solid #000;
+  
+}
+.in4 {
+  top: 0;
+  right: 0;
+  border-radius: 0 100%;
+  border-bottom: 5px solid #000;
+  border-left: 5px solid #000;
+
 }
