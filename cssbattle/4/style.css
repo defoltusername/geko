@@ -1,42 +1,39 @@
-.container{
-    display: flex;
-    align-items: start;
-    flex-direction: row;
-    margin: 100px;
-    height: 300px;
-    width: 400px;
 
-    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.objectone{
-    border-color: #F7EC7D;
-    background-color: #F7EC7D;
-    border-style: solid;
-    height: 100px;
+.box{
+    position: relative;
+    background-color: #62306D;
+    width: 400px;
+    height: 300px;
+}
+.box1{
+    position: absolute;
+    left:35%;
+    top:15%;
     width: 100px;
-    border-bottom-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-    margin-top: 105px;
-    
-}
-}
-.objecttwo{
-    border-color: #F7EC7D;
-    background-color: #F7EC7D;
-    border-style: solid;
     height: 100px;
-    width: 100px;
-    border-top-right-radius: 50px;
-    border-top-left-radius: 50px;
-   
-}
-.objectthree{
-    border-color: #F7EC7D;
+    border-radius: 100% 100% 0% 0%;
     background-color: #F7EC7D;
-    border-style: solid;
-    height: 100px;
+}
+.box2{
+    position: absolute;
+    left:10%;
+    top:48%;
     width: 100px;
-    border-bottom-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-margin-top: 105px;    
+    height: 100px;
+    border-radius: 0% 0% 100% 100%;
+    background-color: #F7EC7D;
+}
+.box3{
+    position: absolute;
+    left:60%;
+    top:48%;
+    width: 100px;
+    height: 100px;
+    border-radius: 0% 0% 100% 100%;
+    background-color: #F7EC7D;
 }
