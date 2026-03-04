@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 300px;
+    width: 400px;
+    border: 1px solid #071945;
+    background-color: #071945;
+    display: grid;
+}
+.purple{
+    height: 10px;
+    width: 50px;
+    border-color: #B069F7;
+    background-color: #B069F7;
+}
+.cube{
+    height: 10px;
+    width: 10px;
+    
+}
