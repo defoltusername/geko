@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    justify-self:center;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 500px;
+
+}
+.cube{
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: gray;
+}
+.tlbox{
+    background-color: #222;
+    width: 20px;
+    height: 60px;
+    position: relative;
+    border-radius: 2px;
+    
+    
+}
+.c1{
+animation: karmir 20s infinite
+}
+.c2{
+   animation: dexin 20s infinite
+}
+.c3{
+    animation: kanach 20s infinite
+}
+
+@keyframes karmir {
+  0%{
+        background-color:red;
+        box-shadow: 0 0 20px red;
+    }
+    20%{
+        background-color:red;
+        box-shadow: 0 0 20px red;
+    }
+    40%{
+        background-color: gray;
+        box-shadow: none;
+    }
+    100%{
+        background-color: red;
+        box-shadow:0 0 20px red;
+    }
+}
+
+@keyframes dexin {
+   0%{
+        background-color:gray;
+    }
+    39%{
+        background-color:yellow;
+        box-shadow: 0 0 20px yellow;
+    }
+    40%{
+        background-color: gray;
+        box-shadow: none;
+    }
+    80%{
+        background-color: yellow;
+        box-shadow: 0 0 20px yellow;
+    }
+    100%{
+        background-color: gray;
+    }
+}
+
+@keyframes kanach{
+0%{
+        background-color: gray;
+}
+40%{
+background-color: green;
+box-shadow: 0 0 20px green;
+}
+60%{
+background-color: green;
+box-shadow:0 0 20px green;
+}
+70%{
+background-color: gray;
+}
+80%{
+background-color: green;
+box-shadow: 0 0 20px green;
+}
+81%{
+        background-color: gray;
+}
+82%{
+    background-color: green;
+}
+83%{
+    background-color: gray;
+}
+84%{
+    background-color: green;
+}
+85%{
+    background-color: gray;
+}
+86%{
+    background-color: green;
+}
+87%{
+    background-color: gray;
+}
+88%{
+    background-color: green;
+}
+89%{
+    background-color: gray;
+}
+90%{
+    background-color: green;
+}
+91%{
+    background-color: gray;
+}
+92%{
+    background-color: green;
+}
+93%{
+    background-color: gray;
+}
+94%{
+    background-color: green;
+}
+95%{
+    background-color: gray;
+}
+96%{
+    background-color: green;
+}
+97%{
+    border-color: gray;
+}
+98%{
+    background-color: gray;
+}
+99%{
+    background-color: gray;
+}
+100%{
+        background-color: gray; 
+}
+
+}
+.line{
+    height: 150px;
+    width: 10px;
+    background-color: #222;
+    margin-top: -190px;
+    margin-left: 5px;
+}
