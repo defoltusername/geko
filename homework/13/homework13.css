@@ -5,10 +5,16 @@
 }
 .container{
     width: 100vh;
-    aspect-ratio: 1/1;
+   aspect-ratio: 1/1;
     display: grid;
     grid-template-columns: repeat(8,1fr);
     grid-template-rows: repeat(8,1fr);
+}
+.a[class]{
+  cursor: grab;
+}
+.a[class]:active{
+  cursor: grabbing;
 }
 .w{
 width: 100px;
@@ -198,9 +204,4 @@ aspect-ratio: 1/1;
     content:"\2659";
     font-size: 80px;
 }
-.f[class]{
-  cursor: grab;
-}
-.f[class]:active{
-  cursor: grabbing;
-}
+
