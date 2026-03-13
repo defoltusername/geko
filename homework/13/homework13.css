@@ -1,0 +1,206 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vh;
+    aspect-ratio: 1/1;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,1fr);
+}
+.w{
+width: 100px;
+aspect-ratio: 1/1;
+background-color: white;
+}
+.g{
+background-color: grey;
+width: 100px;
+aspect-ratio: 1/1;
+}
+.rook1{
+width: 100px;
+aspect-ratio: 1/1;
+}
+.rook1::after{
+    content: "\265c";
+    font-size: 80px;
+}
+.rook2{
+width: 100px;
+aspect-ratio: 1/1;
+background-color: grey;
+}
+.rook2::after{
+    content: "\265c";
+    font-size: 80px;
+}
+.knight1{
+width: 100px;
+aspect-ratio: 1/1;
+background-color: grey;
+
+}
+.knight1::after{
+    content: "\265e";
+    font-size: 80px;
+}
+.knight2{
+width: 100px;
+aspect-ratio: 1/1;
+background-color: rgb(255, 255, 255);
+}
+.knight2::after{
+    content: "\265e";
+    font-size: 80px;
+}
+.bishop1{
+width: 100px;
+aspect-ratio: 1/1;
+
+}
+.bishop1::after{
+    content: "\265d";
+    font-size: 80px;
+}
+.bishop2{
+width: 100px;
+aspect-ratio: 1/1;
+background-color: grey;
+}
+.bishop2::after{
+    content: "\265d";
+    font-size: 80px;
+}
+.queen{
+width: 100px;
+aspect-ratio: 1/1;
+background-color: grey;  
+}
+.queen::after{
+    content: "\265b";
+    font-size: 80px;
+}
+.king{
+width: 100px;
+aspect-ratio: 1/1;
+background-color: rgb(255, 255, 255);  
+}
+.king::after{
+    content: "\265a";
+    font-size: 80px;
+}
+.pawn1{
+width: 100px;
+aspect-ratio: 1/1; 
+background-color: grey;
+}
+.pawn1::after{
+    content:"\265f";
+    font-size: 80px;
+
+}
+.pawn2{
+width: 100px;
+aspect-ratio: 1/1; 
+}
+.pawn2::after{
+    content:"\265f";
+    font-size: 80px;
+}
+.rook3{
+width: 100px;
+aspect-ratio: 1/1;
+background-color: grey;
+}
+.rook3::after{
+    content: "\2656";
+    font-size: 80px;
+}
+.rook4{
+width: 100px;
+aspect-ratio: 1/1;
+}
+.rook4::after{
+    content: "\2656";
+    font-size: 80px;
+}
+.knight3{
+width: 100px;
+aspect-ratio: 1/1;
+background-color: rgb(255, 255, 255);
+
+}
+.knight3::after{
+    content: "\2658";
+    font-size: 80px;
+}
+.knight4{
+width: 100px;
+aspect-ratio: 1/1;
+background-color: grey;
+}
+.knight4::after{
+    content: "\2658";
+    font-size: 80px;
+}
+.bishop3{
+width: 100px;
+aspect-ratio: 1/1;
+background-color: grey;
+}
+.bishop3::after{
+    content: "\2657";
+    font-size: 80px;
+}
+.bishop4{
+width: 100px;
+aspect-ratio: 1/1;
+}
+.bishop4::after{
+    content: "\2657";
+    font-size: 80px;
+}
+.king1{
+    width: 100px;
+aspect-ratio: 1/1;
+background-color: grey;
+}
+.king1::after{
+content: "\2654";
+font-size: 80px;
+}
+.queen1{
+    width: 100px;
+aspect-ratio: 1/1;
+background-color: rgb(255, 255, 255);
+}
+.queen1::after{
+content: "\2655";
+font-size: 80px;
+}
+.pawn3{
+width: 100px;
+aspect-ratio: 1/1; 
+background-color: grey;
+}
+.pawn3::after{
+    content:"\2659";
+    font-size: 80px;
+}
+.pawn4{
+width: 100px;
+aspect-ratio: 1/1; 
+}
+.pawn4::after{
+    content:"\2659";
+    font-size: 80px;
+}
+.f[class]{
+  cursor: grab;
+}
+.f[class]:active{
+  cursor: grabbing;
+}
