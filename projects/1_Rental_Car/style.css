@@ -1,0 +1,115 @@
+:root{
+
+    /* colors */
+
+    --color-primary: #F55757;
+    --color-heading: #595959;
+    --color-paragraph: #737373;
+    --color-icon: #09BF31;
+    --color-link: #404040;
+    --color-background: #FFFFFF;
+
+     /* Font Families */
+     
+     --font-family-main: "Lato", sans-serif;
+
+     /* Font Sizes */
+
+     --font-size-1: 15px;
+     --font-size-2: 56px;
+     --font-size-3: 20px;
+}
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    font-family: var(--font-family-main);
+}
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.header_wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_navlist{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    
+}
+.header_navitem a{
+    text-decoration: none;
+    color:var(--color-link);
+}
+h1{
+    color: var(--color-heading);
+    margin: 20px;
+}
+p{
+    color: var(--color-paragraph);
+    margin: 20px;
+    
+}
+
+.buttonbox{
+    display: flex;
+    
+}
+.boxone{
+    border: 1px solid var(--color-primary);
+    background-color: var(--color-primary);
+    color: var(--color-background);
+    width: 182px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    
+}
+.one{
+    font-size: var(--font-size-3);
+    
+}
+.boxtwo{
+    border: 1px solid var(--color-primary);
+    background-color: var(--color-background);
+    color: var(--color-primary);
+    width: 140px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.two{
+    font-size: var(--font-size-3);
+}
+.hero_images{
+    position: relative;
+    margin-top: -300px;
+}
+.hero_imagecar{
+    margin-top: 303px;
+    margin-left: 588px;
+    position: absolute;
+}
+.hero_imagemap{
+    margin-top: 118px;
+    margin-left: 650px;
+    position: absolute;
+}
+p{
+    width: 586px;
+    height: 48px;
+}
