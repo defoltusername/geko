@@ -8,6 +8,8 @@
     --color-icon: #09BF31;
     --color-link: #404040;
     --color-background: #FFFFFF;
+    --color-opacityred: #FBB7B7;
+    --color-borderbackground: #F2F2F2;
 
      /* Font Families */
      
@@ -18,6 +20,7 @@
      --font-size-1: 15px;
      --font-size-2: 56px;
      --font-size-3: 20px;
+     --font-size-4: 43px;
 }
 
 *, *::before, *::after{
@@ -33,7 +36,7 @@ body{
     font-family: var(--font-family-main);
 }
 .container{
-    max-width: 1240px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 .header_wrap{
@@ -80,6 +83,9 @@ p{
 .one{
     font-size: var(--font-size-3);
     
+.two{
+        font-size: var(--font-size-3);
+    }
 }
 .boxtwo{
     border: 1px solid var(--color-primary);
@@ -92,24 +98,86 @@ p{
     align-items: center;
     margin: 20px;
 }
-.two{
-    font-size: var(--font-size-3);
-}
 .hero_images{
     position: relative;
     margin-top: -300px;
 }
-.hero_imagecar{
-    margin-top: 303px;
-    margin-left: 588px;
+.carxmap{
     position: absolute;
-}
-.hero_imagemap{
-    margin-top: 118px;
-    margin-left: 650px;
-    position: absolute;
+    top: 118px;
+    left: 538px;
+    border: 1px;
+
 }
 p{
     width: 586px;
     height: 48px;
+}
+h1{
+    padding-top: 120px;
+}
+.logoarea{
+    position: relative;
+}
+.logoarea_wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    position: absolute;
+    top: 846px;
+    left: 100px;
+    gap: 80px;
+}
+.logo{
+    opacity: 25%;
+}
+.carmenu{
+    position: relative;
+}
+.carmenu_wrap{
+    position: absolute;
+    top: 1026px;
+    left: 103px;
+    gap: 50px;
+}
+.infomenu{
+    display: flex;
+    flex-direction: column;
+    width: 630px;
+    height: 134px;
+}
+.bd{
+   background-color: var(--color-borderbackground);
+   width: 397px; 
+   height: 297px;
+}
+.lexusborder{
+    position: relative;
+}
+.jaguarborder{
+    position: relative;
+}
+.mercedesborder{
+    position: relative;
+}
+.lex{
+    position: absolute;
+    top: 52px;
+    bottom: 58px;
+    left: 32px;
+    right: 27px;
+}
+.jag{
+    position: absolute;
+    top: 57px;
+    bottom: 57px;
+    left: 51px;
+    right: 51px;
+}
+.mers{
+    position: absolute;
+    top: 57px;
+    bottom: 57px;
+    left: 29px;
+    right: 29px;
 }
