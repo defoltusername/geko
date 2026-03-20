@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rent Cars</title>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/js/all.min.js"
+        integrity="sha512-6BTOlkauINO65nLhXhthZMtepgJSghyimIalb+crKRPhvhmsCdnIuGcVbR5/aQY2A+260iC1OPy1oCdB6pSSwQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
     <header class="header">
         <div class="container">
             <div class="header_wrap">
-                <div class="header_logo">
+                <a href="#hero" class="header_logo">
                     <img src="./img/logo.svg" alt="Logo">
-                </div>
+                </a>
                 <nav class="header_nav">
                     <ul class="header_navlist">
                         <li class="header_navitem"><a href="#" class="header_navlink">Become a renter</a></li>
@@ -33,12 +41,13 @@
             </div>
         </div>
     </header>
-    <section class="hero">
+    <section class="hero" id="hero">
         <div class="container">
             <div class="hero_wrap">
                 <div class="hero_block">
                     <h1 class="hero_title">Find, book and rent a car <span class="hero_highlight">Easily</span></h1>
-                    <p class="hero_text">Get a car wherever and whenever you need it with your IOS and Android device.</p>
+                    <p class="hero_text">Get a car wherever and whenever you need it with your IOS and Android device.
+                    </p>
                     <div class="hero_market">
                         <a href="#" class="hero_link">
                             <img src="./img/play_market.svg" alt="Play Market">
@@ -50,24 +59,52 @@
                 </div>
                 <form class="hero_form">
                     <div class="hero_group">
-                        <div class="hero_form_icon"><span class="material-symbols-outlined">location_on</span></div>
+                        <div class="hero_form_icon"><i class="fa-solid fa-location-dot"></i></div>
                         <div class="hero_form_title">Location</div>
                         <div class="hero_form_text">Search your location</div>
                     </div>
                     <div class="hero_group">
-                        <div class="hero_form_icon"><span class="material-symbols-outlined">calendar_month</span></div>
+                        <div class="hero_form_icon"><i class="fa-solid fa-calendar-days"></i></div>
                         <div class="hero_form_title">Pickup date</div>
                         <div class="hero_form_text">Tue 15 Feb, 09:00</div>
                     </div>
                     <div class="hero_group">
-                        <div class="hero_form_icon"><span class="material-symbols-outlined">calendar_month</span></div>
+                        <div class="hero_form_icon"><i class="fa-solid fa-calendar-days"></i></div>
                         <div class="hero_form_title">Return date</div>
                         <div class="hero_form_text">Thu 16 Feb, 11:00</div>
                     </div>
                     <button class="hero_btn">Search</button>
-                </form> 
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="how">
+        <div class="container">
+            <div class="how_wrap">
+                <hgroup class="how_hgroup common_hgroup">
+                    <div class="common_title">How It Work</div>
+                    <h2 class="how_heading common_heading">Rent with following 3 working steps</h2>
+                </hgroup>
+                <div class="how_group">
+                    <div class="how_item">
+                        <div class="how_icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <h3 class="how_title">Choose location</h3>
+                        <p class="how_text">Choose your and find your best car</p>
+                    </div>
+                    <div class="how_item">
+                        <div class="how_icon"><i class="fa-solid fa-calendar-days"></i></div>
+                        <h3 class="how_title">Pick-up date</h3>
+                        <p class="how_text">Select your pick up date and time to book your car</p>
+                    </div>
+                    <div class="how_item">
+                        <div class="how_icon"><i class="fa-solid fa-car"></i></div>
+                        <h3 class="how_title">Book your car</h3>
+                        <p class="how_text">Book your car and we will deliver it directly to you</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 </body>
+
 </html>
