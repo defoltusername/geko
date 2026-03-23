@@ -1,0 +1,214 @@
+:root{
+
+    /* colors */
+
+    --color-primary: #F55757;
+    --color-heading: #595959;
+    --color-paragraph: #737373;
+    --color-icon: #09BF31;
+    --color-link: #404040;
+    --color-background: #FFFFFF;
+    --color-opacityred: #FBB7B7;
+    --color-borderbackground: #F2F2F2;
+    --color-hereare: #A6A6A6;
+    --color-shadow: #B40D0D1A;
+    --color-user: #BFBFBF;
+
+     /* Font Families */
+     
+     --font-family-main: "Lato", sans-serif;
+
+     /* Font Sizes */
+
+     --font-size-1: 15px;
+     --font-size-2: 56px;
+     --font-size-3: 20px;
+     --font-size-4: 43px;
+     --font-size-5: 26px;
+}
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.our_wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.our_link{
+    display: flex;
+    justify-self: center;
+    align-content: center;
+    width: 116px;
+    height: 58px;
+    background-color: var(--color-primary);
+    
+}
+.seeall{
+    text-decoration: none;
+    color: var(--color-background);
+    font-family: var(--font-family-main);
+    font-size: var(--font-size-1);
+}
+.div{
+    color: var(--color-primary);
+    width: 20px;
+    aspect-ratio: 1/1;
+}
+.fa-solid{
+    color: var(--color-primary);
+    width: 10px;
+    height: 20px;
+}
+#grayone{
+    color: var(--color-hereare);
+}
+.our_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 422px;
+    gap: 10px;
+}
+.ourreview{
+    text-transform: uppercase;
+    font-size: var(--font-size-3);
+    font-family: var(--font-family-main);
+    color: var(--color-opacityred);
+}
+.whattheysay{
+    text-transform: capitalize;
+    font-size: var(--font-size-4);
+    font-family: var(--font-family-main);
+    color: var(--color-paragraph);
+    font-weight: 500;
+}
+.hereare{
+    font-size: var(--font-size-1);
+    font-family: var(--font-family-main);
+    color: var(--color-hereare);
+    font-weight: 400;
+}
+.our_ratetable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.our_assesment_border{
+    width: 400px;
+    height: 392px;
+}
+.our_textone{
+    text-align: center;
+    width: 352px;
+    height: 120px;
+    color: var(--color-hereare);
+}
+.our_texttwo{
+    text-align: center;
+    width: 366px;
+    height: 120px;
+    color: var(--color-hereare);
+}
+.our_textthree{
+    text-align: center;
+    width: 362px;
+    height: 120px;
+    color: var(--color-hereare);
+}
+.one{
+    top: 46px;
+    right: 9px;
+    bottom: 46px;
+    left: 9px;
+    box-shadow: 0 0 25px 0 var(--color-shadow);
+}
+.two{
+    top: 46px;
+    right: 7px;
+    bottom: 46px;
+    left: 7px;
+    gap: 18px;
+    box-shadow: 0 0 25px 0 var(--color-shadow);
+}
+.three{
+     top: 46px;
+     right: 9px;
+     bottom: 46px;
+     left: 9px;
+     gap: 10px;
+     box-shadow: 0 0 25px 0 var(--color-shadow);
+}
+img{
+    width: 75px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+h2{
+    color: var(--color-paragraph);
+    font-family: var(--font-family-main);
+    font-weight: 400px;
+    font-size: var(--font-size-5);
+}
+h3{  
+    color: var(--color-paragraph);
+    font-family: var(--font-family-main);
+    font-weight: 400px;
+    font-size: var(--font-size-5);
+}
+h4{
+    color: var(--color-paragraph);
+    font-family: var(--font-family-main);
+    font-weight: 400px;
+    font-size: var(--font-size-5);
+}
+.pone{
+    color: var(--color-user);
+    font-family: var(--font-family-main);
+    font-weight: 400;
+    font-size: var(--font-size-3);
+}
+.ptwo{
+    color: var(--color-user);
+    font-family: var(--font-family-main);
+    font-weight: 400;
+    font-size: var(--font-size-3);
+}
+.pthree{
+    color: var(--color-user);
+    font-family: var(--font-family-main);
+    font-weight: 400;
+    font-size: var(--font-size-3);
+}
+.gray{
+       color: var(--color-hereare);
+}
+.starone{
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    gap: 6px;
+}
+.startwo{
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    gap: 6px;
+}
+.starthree{
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    gap: 6px;
+}
+
