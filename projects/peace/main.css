@@ -1,6 +1,8 @@
 :root{
     --color-primary: #F55757;
     --font-family: 'Lato', sans-serif;
+    --color-lightgray: #A6A6A6;
+    --color-lightred: #FBB7B7;
 }
 * {
   margin: 0;
@@ -15,7 +17,7 @@
   text-align: center;
 }
 .our_subtitle {
-  color: var(--color-primary);
+  color: var(--color-lightred);
   font-size: 14px;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -103,4 +105,7 @@
     color: var(--color-primary);
     width: 20px;
     height: 20px;
+}
+.gray{
+  color: var(--color-lightgray);
 }
