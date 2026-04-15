@@ -1,6 +1,7 @@
-for (let i = 1; i <= 9; i++) {
-    for (let j = 1; j <= 9; j++) {
-        console.log(i + ' * ' + j + ' = '+ (i * j));
-    }
-    console.log('==========');
+function capitalize(text) {
+  if (!text) return "";
+  return text[0].toUpperCase() + text.slice(1).toLowerCase();
 }
+
+let result = capitalize("albert");
+console.log(result);
