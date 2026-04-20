@@ -1,0 +1,36 @@
+body {
+  font-family: Arial;
+  text-align: center;
+}
+
+#seats-container {
+  display: grid;
+  grid-template-columns: repeat(8, 40px);
+  gap: 10px;
+  justify-content: center;
+  margin: 20px;
+}
+
+.seat {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.free {
+  background-color: lightgray;
+}
+
+.selected {
+  background-color: green;
+}
+
+.occupied {
+  background-color: red;
+  cursor: not-allowed;
+}
+
+.info {
+  margin: 20px;
+}
