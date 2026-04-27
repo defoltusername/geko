@@ -1,20 +1,24 @@
-const input = document.getElementById('colorInput');
-const generateBtn = document.getElementById('generateBtn');
-const changeBtn = document.getElementById('changeBtn');
-generateBtn.addEventListener('click', () => {
-  const hexChars = '0123456789ABCDEF';
-  let color = '#';
-  for (let i = 0; i < 6; i++) {
-    color += hexChars[Math.floor(Math.random() * 16)];
+class Fish {
+  constructor(name, price) {
+    this.name = name; 
   }
-  input.value = color;
-});
-changeBtn.addEventListener('click', () => {
-  document.body.style.backgroundColor = input.value;
-});
-input.addEventListener('input', () => {
-  if (!input.value.startsWith('#')) {
 
-    input.value = '#' + input.value;
+  getInfo() {
+    return `${this.name} стоит ${this.price} руб.`;
   }
-});
+}
+class FishMarket {
+  constructor(marketName) {
+    this.marketName = marketName;
+    this.inventory = []; 
+ 
+  addFish(fishObject) {
+    this.inventory.push(fishObject);
+    console.log(`${fishObject.name} привезен на рынок "${this.marketName}"`);
+  }
+    console.log(`--- Ассортимент рынка ${this.marketName} ---`);
+    this.inventory.forEach(fish => {
+      console.log(fish.getInfo());
+    });
+  }
+}
