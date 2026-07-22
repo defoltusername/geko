@@ -1,0 +1,26 @@
+const pieces = {
+
+    white:{
+
+        king:"♔",
+        queen:"♕",
+        rook:"♖",
+        bishop:"♗",
+        knight:"♘",
+        pawn:"♙"
+
+    },
+
+
+    black:{
+
+        king:"♚",
+        queen:"♛",
+        rook:"♜",
+        bishop:"♝",
+        knight:"♞",
+        pawn:"♟"
+
+    }
+
+};
