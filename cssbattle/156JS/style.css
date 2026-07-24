@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 400px;
+    height: 300px;
+    background-color: #E38F66;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.kvone{
+height: 140px;
+aspect-ratio: 1/1;
+border: 20px solid black;
+margin-left: 20px;
+display: flex;
+justify-content: end;
+align-items: center;
+}
+.smallkvone{
+    height: 60px;
+    aspect-ratio: 1/1;
+    background-color: black;
+}
+.sredkv{
+    height: 60px;
+    width: 80px;
+    background-color: black;
+}
+.kvtwo{
+height: 140px;
+aspect-ratio: 1/1;
+border: 20px solid black;
+margin-left: 20px;
+margin-left: -10px;
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.smallkvtwo{
+    width: 20px;
+    height: 60px;
+    background-color: black;
+
+}

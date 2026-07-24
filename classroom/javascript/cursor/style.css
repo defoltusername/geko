@@ -1,0 +1,27 @@
+body {
+    background: white;
+    color: black;
+    transition: 0.3s;
+}
+
+button {
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    height: 60px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+}
+
+.dark {
+    background: black;
+    color: white;
+}
+
+.dark button {
+    background: white;
+    color: black;
+    
+}
