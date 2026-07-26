@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 400px;
+    height: 300px;
+    background-color: #AF6A8A;
+    position: relative;
+}
+.circlebox{
+    display: flex;
+   justify-content: center;
+   padding-top: 70px;
+}
+.circle{
+    width: 140px;
+    aspect-ratio: 1/1;
+    background-color: #742020;
+    border-radius: 100%;
+}
+.odin{
+    width: 50px;
+    height: 160px;
+    position: absolute;
+  margin-top: -140px;
+  margin-left: 105px;
+    background-color: #AF6A8A;
+}
+.vtoroy{
+    margin-left: 169px;
+    margin-top: -85px;
+    background-color: aqua;
+    height: 50px;
+    width: 160px;
+
+}
