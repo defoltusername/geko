@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 400px;
+    height: 300px;
+    background-color: #558C90;
+    position: relative;
+}
+.line{
+position: absolute;
+margin-top: 126px;
+width: 400px;
+height: 48px;
+background-color: #FFF;
+}
+.circlebox{
+    position: absolute;
+    margin-top: 88px;
+    margin-left: 80px;
+    display: flex;
+    gap: 10px;
+}
+.circle{
+height: 113px;
+aspect-ratio: 1/1;
+background-color: #FFF;
+border-radius: 50%;
+}
+.minicircle{
+    position: absolute;
+    margin-top: 34px;
+    margin-left: 29px;
+    height: 50px;
+    aspect-ratio: 1/1;
+    background-color: #325853;
+    border-radius: 100%;
+}
